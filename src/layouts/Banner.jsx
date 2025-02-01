@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../components/Container";
 import Heading from "../components/Heading";
 import Text from "../components/Text";

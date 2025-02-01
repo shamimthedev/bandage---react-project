@@ -28,10 +28,10 @@ const Header = () => {
                 <Link to={"/"}>
                   <li>Home</li>
                 </Link>
-                <Link to={"/bestseller"}>
-                  <li className="inline-flex items-center">
+                <Link to={"/bestseller"} className='group'>
+                  <li className="inline-flex items-center ">
                     Shop
-                    <IoIosArrowDown className="ml-1" />
+                    <IoIosArrowDown className="ml-1 transition-all duration-500 group-hover:rotate-180" />
                   </li>
                 </Link>
                 <Link to={"/bestseller"}>
